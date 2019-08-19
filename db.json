@@ -1,0 +1,104 @@
+{
+  "mappings": [
+    {
+      "id": 1,
+      "CrmEntity": "contact",
+      "CrmField": "firstname",
+      "CrmLabel": "First Name",
+      "CmMapping": "FIRST_NAME"
+    },
+    {
+      "id": 2,
+      "CrmEntity": "contact",
+      "CrmField": "lastname",
+      "CrmLabel": "Last Name",
+      "CmMapping": "LAST_NAME"
+    },
+    {
+      "id": 3,
+      "CrmEntity": "contact",
+      "CrmField": "mobilephone",
+      "CrmLabel": "Primary Phone",
+      "CmMapping": "PRIMARY_PHONE"
+    },
+    {
+      "id": 4,
+      "CrmEntity": "contact",
+      "CrmField": "telephone1",
+      "CrmLabel": "Secondary Phone",
+      "CmMapping": "SECONDARY_PHONE"
+    },
+    {
+      "id": 5,
+      "CrmEntity": "contact",
+      "CrmField": "emailaddress1",
+      "CrmLabel": "Email Address",
+      "CmMapping": "EMAIL_ADDRESS"
+    },
+    {
+      "id": 6,
+      "CrmEntity": "contact",
+      "CrmField": "address1_line1",
+      "CrmLabel": "Address Line 1",
+      "CmMapping": "ADDRESS_LINE1"
+    },
+    {
+      "id": 7,
+      "CrmEntity": "contact",
+      "CrmField": "address1_line2",
+      "CrmLabel": "Address Line 2",
+      "CmMapping": "ADDRESS_LINE2"
+    },
+    {
+      "id": 8,
+      "CrmEntity": "contact",
+      "CrmField": "address1_city",
+      "CrmLabel": "City",
+      "CmMapping": "CITY"
+    },
+    {
+      "id": 9,
+      "CrmEntity": "contact",
+      "CrmField": "address1_stateprovince",
+      "CrmLabel": "State",
+      "CmMapping": "STATE"
+    },
+    {
+      "id": 10,
+      "CrmEntity": "contact",
+      "CrmField": "address1_postalcode",
+      "CrmLabel": "Zip",
+      "CmMapping": "ZIP_CODE"
+    },
+    {
+      "id": 11,
+      "CrmEntity": "incident",
+      "CrmField": "casedetails",
+      "CrmLabel": "Case Details",
+      "CmMapping": "CASE_DETAILS"
+    },
+    {
+      "id": 12,
+      "CrmEntity": "incident",
+      "CrmField": "cap_casetypeid",
+      "CrmLabel": "Case Type Id",
+      "CmMapping": "CASE_TYPE_ID"
+    }
+  ],
+  "custom-mappings": [
+    {
+      "id": 1,
+      "CrmEntity": "incident",
+      "CrmField": "cap_custom1",
+      "CrmLabel": "Custom 1",
+      "CmMapping": "CUSTOM_1"
+    },
+    {
+      "id": 2,
+      "CrmEntity": "incident",
+      "CrmField": "cap_custom2",
+      "CrmLabel": "Custom 1",
+      "CmMapping": "CUSTOM_@"
+    }
+  ]
+}
